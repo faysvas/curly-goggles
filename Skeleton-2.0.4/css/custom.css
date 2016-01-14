@@ -1,0 +1,52 @@
+body {
+
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */background-color: #608a84;
+background-image: url("http://www.transparenttextures.com/patterns/texturetastic-gray.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+
+.header {
+	background:#DCB599;
+}
+
+.sidebar{
+	
+	background:#B47D04;
+}
+.notepad {
+    font-family: 'Handlee', cursive;
+    padding: 15px 14px;
+    margin: 15px auto;
+    
+    height: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+
+    background: #DCCD99;
+	background:
+		-webkit-gradient(
+			linear,
+			left top, left bottom,
+			from(#B47D04),
+			color-stop(2%, #DCCD99)
+		);
+	background:
+		-moz-repeating-linear-gradient(
+			top,
+			#DCCD99,
+			#DCCD99 38px,
+			#81cbbc 40px
+		);
+	background:
+		repeating-linear-gradient(
+			top,
+			#DCCD99,
+			#DCCD99 38px,
+			#81cbbc 40px
+		);		
+	-webkit-background-size: 100% 40px;
+}
+p {
+    font-size: 28px;
+    line-height: 41px;
+}
