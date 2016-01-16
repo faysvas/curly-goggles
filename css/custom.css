@@ -1,0 +1,279 @@
+body {
+
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */background-color: #608a84;
+background-image: url("http://www.transparenttextures.com/patterns/texturetastic-gray.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+
+.header {
+	background:#DCB599;
+}
+
+.main>div{
+	margin-top:10px;
+	margin-bottom:30px;
+}
+#sidebar{
+
+ position: -webkit-sticky;  // required for Safari
+    position: sticky;
+    top: 0; // required as well.
+	
+}
+#sidebar:before,
+#sidebar:after {
+    content: '';
+    display: table;
+}
+
+#sidebar>div{
+	
+	padding:15px 5px;
+	background:#B47D04;
+margin-top:10px;
+	margin-bottom:30px;	
+	
+}
+.letter {
+     background: #DCCD99;
+	background:
+		-webkit-gradient(
+			linear,
+			left top, left bottom,
+			from(#B47D04),
+			color-stop(2%, #DCCD99)
+		);
+	background:
+		-moz-repeating-linear-gradient(
+			top,
+			#DCCD99,
+			#DCCD99 38px,
+			#81cbbc 40px
+		);
+	background:
+		repeating-linear-gradient(
+			top,
+			#DCCD99,
+			#DCCD99 38px,
+			#81cbbc 40px
+		);		
+	-webkit-background-size: 100% 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin: 0px auto 0;
+  max-width: 550px;
+ 
+  padding: 44px 24px;
+  position: relative;
+  
+}
+.letter:before, .letter:after {
+	    background: #DCCD99;
+	background:
+		-webkit-gradient(
+			linear,
+			left top, left bottom,
+			from(#B47D04),
+			color-stop(2%, #DCCD99)
+		);
+	background:
+		-moz-repeating-linear-gradient(
+			top,
+			#DCCD99,
+			#DCCD99 38px,
+			#81cbbc 40px
+		);
+	background:
+		repeating-linear-gradient(
+			top,
+			#DCCD99,
+			#DCCD99 38px,
+			#81cbbc 40px
+		);		
+	-webkit-background-size: 100% 40px;
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.letter:before {
+
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-2.5deg);
+}
+.letter:after {
+ 
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  right: -3px;
+  top: 1px;
+  transform: rotate(2.4deg);
+}
+.notepad {
+    font-family: 'Handlee', cursive;
+    padding: 15px 14px;
+    margin: 15px auto;
+    
+    height: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+
+    background: #DCCD99;
+	background:
+		-webkit-gradient(
+			linear,
+			left top, left bottom,
+			from(#B47D04),
+			color-stop(2%, #DCCD99)
+		);
+	background:
+		-moz-repeating-linear-gradient(
+			top,
+			#DCCD99,
+			#DCCD99 38px,
+			#81cbbc 40px
+		);
+	background:
+		repeating-linear-gradient(
+			top,
+			#DCCD99,
+			#DCCD99 38px,
+			#81cbbc 40px
+		);		
+	-webkit-background-size: 100% 40px;
+}
+p {
+    font-size: 28px;
+    line-height: 41px;
+}
+
+
+.ribbon:before {
+    content: "";    
+    display: block;
+    width: 40px;
+    height: 0px;
+     
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    z-index: 10;
+     
+    border-bottom: 80px solid #000000;
+    border-right: 80px solid transparent;
+     
+    -webkit-transform: rotate(80deg);
+    -webkit-transform-origin: right bottom;
+    -moz-transform: rotate(80deg);
+    -moz-transform-origin: right bottom;
+    -o-transform: rotate(80deg);
+    -o-transform-origin: right bottom;
+    -ms-transform: rotate(80deg);
+    -ms-transform-origin: right bottom;
+    transform: rotate(80deg);
+    transform-origin: right bottom;
+    }
+	
+	.ribbon {
+	padding: 0 25px;
+	height: 80px;
+	
+	color: #301607;
+	
+	background-color: background:#B47D04;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#c94700), to(#b84100)); 
+    background-image: -webkit-linear-gradient(top, #c94700, #b84100); 
+    background-image:    -moz-linear-gradient(top, #c94700, #b84100); 
+    background-image:     -ms-linear-gradient(top, #c94700, #b84100); 
+    background-image:      -o-linear-gradient(top, #c94700, #b84100); 
+    background-image:         linear-gradient(top, #c94700, #b84100);
+	
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        
+	position: relative;
+	float: left;
+	clear: left;
+	
+	font-family: 'Montez', cursive;
+	font-size: 32px;			
+	line-height: 80px;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+	
+	-moz-box-shadow:        -7px 7px 0px rgba(0, 0, 0, 0.3); 
+    -webkit-box-shadow:    	-7px 7px 0px rgba(0, 0, 0, 0.3); 
+    box-shadow:             -7px 7px 0px rgba(0, 0, 0, 0.3);
+    
+    border-bottom-right-radius: 20px 5px;
+	}
+	
+.ribbon:after {
+	content: "";	
+	display: block;
+	width: 40px;
+	height: 0px;
+	
+	position: absolute;
+    right: 0;
+    bottom: 4px;
+    z-index: 20;
+	
+	border-bottom: 80px solid #de6625;
+	border-right: 80px solid transparent;
+	
+	-webkit-transform: rotate(90deg);
+    -webkit-transform-origin: right bottom;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: right bottom;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: right bottom;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: right bottom;
+    transform: rotate(90deg);
+    transform-origin: right bottom;
+	}	
+	
+.ribbon:before {
+	content: "";	
+	display: block;
+	width: 20px;
+	height: 0px;
+	
+	position: absolute;
+    right: 0;
+    bottom: 4px;
+    z-index: 10;
+	
+    border-bottom: 80px solid rgba(0, 0, 0, 0.3);
+	border-right: 80px solid transparent;
+	
+	-webkit-transform: rotate(80deg);
+    -webkit-transform-origin: right bottom;
+    -moz-transform: rotate(80deg);
+    -moz-transform-origin: right bottom;
+    -o-transform: rotate(80deg);
+    -o-transform-origin: right bottom;
+    -ms-transform: rotate(80deg);
+    -ms-transform-origin: right bottom;
+    transform: rotate(80deg);
+    transform-origin: right bottom;
+	}	
+	
+/*let's solve the unusual display problem caused by firefox*/	
+
+.ribbon#ff-proof:after {	
+	width: 0px;
+	height: 40px;
+	
+	position: absolute;
+    right: -160px;
+	
+	border-left: 80px solid #de6625;
+	border-bottom: 80px solid transparent;
+	
+	-webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+    }
