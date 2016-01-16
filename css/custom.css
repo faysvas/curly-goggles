@@ -7,7 +7,24 @@ background-image: url("http://www.transparenttextures.com/patterns/texturetastic
 }
 
 .header {
-	background:#DCB599;
+	position:relative;
+	height:200px;
+	/* background:#DCB599; */
+}
+
+.header>div{
+	    position: absolute;
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+
+.header:after{
+	content: url("../images/banner.png");
+	z-index: -1;
+       display:block;
+       position:relative;
+      /* top: -100px; */
 }
 
 .main>div{
@@ -149,131 +166,5 @@ p {
 }
 
 
-.ribbon:before {
-    content: "";    
-    display: block;
-    width: 40px;
-    height: 0px;
-     
-    position: absolute;
-    right: 0;
-    bottom: 0px;
-    z-index: 10;
-     
-    border-bottom: 80px solid #000000;
-    border-right: 80px solid transparent;
-     
-    -webkit-transform: rotate(80deg);
-    -webkit-transform-origin: right bottom;
-    -moz-transform: rotate(80deg);
-    -moz-transform-origin: right bottom;
-    -o-transform: rotate(80deg);
-    -o-transform-origin: right bottom;
-    -ms-transform: rotate(80deg);
-    -ms-transform-origin: right bottom;
-    transform: rotate(80deg);
-    transform-origin: right bottom;
-    }
-	
-	.ribbon {
-	padding: 0 25px;
-	height: 80px;
-	
-	color: #301607;
-	
-	background-color: background:#B47D04;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#c94700), to(#b84100)); 
-    background-image: -webkit-linear-gradient(top, #c94700, #b84100); 
-    background-image:    -moz-linear-gradient(top, #c94700, #b84100); 
-    background-image:     -ms-linear-gradient(top, #c94700, #b84100); 
-    background-image:      -o-linear-gradient(top, #c94700, #b84100); 
-    background-image:         linear-gradient(top, #c94700, #b84100);
-	
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        
-	position: relative;
-	float: left;
-	clear: left;
-	
-	font-family: 'Montez', cursive;
-	font-size: 32px;			
-	line-height: 80px;
-	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
-	
-	-moz-box-shadow:        -7px 7px 0px rgba(0, 0, 0, 0.3); 
-    -webkit-box-shadow:    	-7px 7px 0px rgba(0, 0, 0, 0.3); 
-    box-shadow:             -7px 7px 0px rgba(0, 0, 0, 0.3);
-    
-    border-bottom-right-radius: 20px 5px;
-	}
-	
-.ribbon:after {
-	content: "";	
-	display: block;
-	width: 40px;
-	height: 0px;
-	
-	position: absolute;
-    right: 0;
-    bottom: 4px;
-    z-index: 20;
-	
-	border-bottom: 80px solid #de6625;
-	border-right: 80px solid transparent;
-	
-	-webkit-transform: rotate(90deg);
-    -webkit-transform-origin: right bottom;
-    -moz-transform: rotate(90deg);
-    -moz-transform-origin: right bottom;
-    -o-transform: rotate(90deg);
-    -o-transform-origin: right bottom;
-    -ms-transform: rotate(90deg);
-    -ms-transform-origin: right bottom;
-    transform: rotate(90deg);
-    transform-origin: right bottom;
-	}	
-	
-.ribbon:before {
-	content: "";	
-	display: block;
-	width: 20px;
-	height: 0px;
-	
-	position: absolute;
-    right: 0;
-    bottom: 4px;
-    z-index: 10;
-	
-    border-bottom: 80px solid rgba(0, 0, 0, 0.3);
-	border-right: 80px solid transparent;
-	
-	-webkit-transform: rotate(80deg);
-    -webkit-transform-origin: right bottom;
-    -moz-transform: rotate(80deg);
-    -moz-transform-origin: right bottom;
-    -o-transform: rotate(80deg);
-    -o-transform-origin: right bottom;
-    -ms-transform: rotate(80deg);
-    -ms-transform-origin: right bottom;
-    transform: rotate(80deg);
-    transform-origin: right bottom;
-	}	
-	
-/*let's solve the unusual display problem caused by firefox*/	
 
-.ribbon#ff-proof:after {	
-	width: 0px;
-	height: 40px;
-	
-	position: absolute;
-    right: -160px;
-	
-	border-left: 80px solid #de6625;
-	border-bottom: 80px solid transparent;
-	
-	-webkit-transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
-    transform: none;
-    }
+

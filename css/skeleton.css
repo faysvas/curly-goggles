@@ -24,10 +24,7 @@
 - Clearing
 - Media Queries
 */
-.row{
-	margin-top:10px;
-	margin-bottom:20px;
-}
+
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -43,6 +40,11 @@
   width: 100%;
   float: left;
   box-sizing: border-box; }
+  
+  .row{
+	margin-top:10px;
+	margin-bottom:20px;
+}
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
