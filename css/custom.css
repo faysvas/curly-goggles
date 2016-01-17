@@ -5,27 +5,25 @@ background-image: url("http://www.transparenttextures.com/patterns/texturetastic
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
 }
+.container{
+	background: rgba(197, 198, 199, 0.23);
+	 box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
 
-.header {
+#header {
+	background-image: url("../images/banner.png");
+	margin-left: -10px;
 	position:relative;
-	height:200px;
+	height:225px;
 	/* background:#DCB599; */
 }
 
-.header>div{
-	    position: absolute;
-    display: inline-block;
-    margin-left: 300px;
-    margin-top: 80px;
+#header>div{
+	    padding-left: 300px;
+    padding-top: 80px;
 }
 
-.header:after{
-	content: url("../images/banner.png");
-	z-index: -1;
-       display:block;
-       position:relative;
-      /* top: -100px; */
-}
+
 
 .main>div{
 	margin-top:10px;
@@ -33,9 +31,9 @@ background-image: url("http://www.transparenttextures.com/patterns/texturetastic
 }
 #sidebar{
 
- position: -webkit-sticky;  // required for Safari
-    position: sticky;
-    top: 0; // required as well.
+ position: -webkit-sticky; 
+ position: sticky;
+ top: 0;
 	
 }
 #sidebar:before,
@@ -46,10 +44,12 @@ background-image: url("http://www.transparenttextures.com/patterns/texturetastic
 
 #sidebar>div{
 	
-	padding:15px 5px;
-	background:#B47D04;
+	padding:15px 15px;
+background-repeat:no-repeat;
+background-image: url("../images/note3.png");
+/*height:105px;	
 margin-top:10px;
-	margin-bottom:30px;	
+margin-bottom:30px;	*/
 	
 }
 .letter {
