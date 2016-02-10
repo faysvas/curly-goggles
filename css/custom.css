@@ -1,9 +1,47 @@
+p::first-letter { 
+    
+    
+}
+@font-face {
+    font-family: "My Custom Font";
+    src: url(../fonts/Comfortaa-Regular.ttf) format("truetype");
+}
+
 body {
+	font-weight:400px;
+font-size: 18px;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Noto Serif', serif;
+
+
 
 background-color: #608a84;
 background-image: url("../images/texturetastic-gray.png");
-    color: rgb(40, 40, 40);
+    color: rgb(26, 26, 26);
 
+}
+article{
+	margin-bottom:70px;
+}
+h1{
+	font-family: "My Custom Font", Verdana, Tahoma;
+}
+article>h2{
+	font-size:2.25em;
+	font-family: "My Custom Font", Verdana, Tahoma;
+	
+
+	  line-height: 1.1em;
+	margin-bottom:1em;
+	margin-top: 1em;
+}
+article>h3{
+	font-family: "My Custom Font", Verdana, Tahoma;
+
+	font-size:1.5em;
+	    margin-bottom: 0.25em;
+		line-height: 1.1;
+		
 }
 .container{
 	border: 1px solid rgba(188, 188, 188, 0.1);
@@ -28,7 +66,7 @@ border: 1px solid rgba(188, 188, 188, 0.1);
 
 #header>div{
 	      height: 145px;
-    background-image: url("../images/banner.png");
+    background-image: url("../images/banner2.png");
     background-size: 100% 100%;
     text-align: center;
     padding-top: 80px;
@@ -37,11 +75,12 @@ border: 1px solid rgba(188, 188, 188, 0.1);
 
 
 
-.main>div{
+main>div{
 	margin-top:10px;
 	margin-bottom:30px;
 }
 #sidebar{
+	font-family: "My Custom Font", Verdana, Tahoma;
 	border: 1px solid rgba(188, 188, 188, 0.1);
 	
     box-shadow: 0 0 8px rgba(0,0,0,0.2);
@@ -192,8 +231,8 @@ background-image: url("../images/menu7_3.png");
 	-webkit-background-size: 100% 40px;
 }
 p {
-    font-size: 28px;
-    line-height: 41px;
+    
+    line-height: 1.5em;
 }
 
 
